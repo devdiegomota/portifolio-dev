@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+body {
+    background-color: #191919;
+}
+.primeira-secao {
+    margin: 0 auto;
+    height: 100vh;
+    background-image: url(img/banner2.png);
+    background-position: 80% 224px;
+    background-repeat: no-repeat;
+    
+}   
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.portifolio {
+    color: #ffffff;
+    font-size: 40px;
+}
+.portifolio span {
+    color: #f9004d;
+}
+nav li {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 19px;
+}
+nav li:hover {
+    color: #f9004d;
+    transition: 0.5s;
+}
+.p-meunome {
+    position: absolute;
+    top: 45%;
+    margin-left: 13%;
+   
+}
+.p-meunome h3 {
+    padding-left: 4px;
+}
+h1 {
+    color: white;
+    font-size: 75px;
+}
+h1 span {
+    color: #f9004d;
+    font-size: 75px;
+}
+.p-meunome h3 {
+    color: white;
+    font-size: 30px;
+}
