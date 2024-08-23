@@ -62,5 +62,41 @@ h1 span {
 }
 .p-meunome h3 {
     color: white;
-    font-size: 30px;
+    font-size: 25px;
+}
+section {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 60px 13%;
+
+}
+section img {
+    height: 300px;
+    border-radius: 100%;
+    border: 2px solid #f9004d; 
+    margin-right: 40px;
+}
+section div h2 {
+    color: white;
+    font-size: 75px;
+}
+section div p {
+    color: white;
+    font-size: 25px;
+    margin: 15px 0;
+}
+section div button {
+    color: white;
+    background-color: #f9004d;
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+}
+section div button:hover {
+    background-color: black;
+    border: 2px solid #f9004d; 
+    cursor: pointer;
+    transition: 0.5s;
 }
