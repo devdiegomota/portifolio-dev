@@ -11,10 +11,14 @@ body {
     margin: 0 auto;
     height: 100vh;
     background-image: url(img/banner2.png);
-    background-position: 80% 224px;
+    background-position: 80% 62%;
     background-repeat: no-repeat;
     
 }   
+.primeira-secao a {
+    text-decoration: none;
+    color: white;
+}
 nav {
     display: flex;
     align-items: center;
@@ -108,6 +112,7 @@ section div button:hover {
 }
 .card-principal {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 .secao-projetos img {
@@ -149,4 +154,65 @@ section div button:hover {
     background-color: black;
     height: 385px;
     width: 355px;
+    margin-bottom: 25px;
 }
+footer {
+    color: white;
+    background-color: black;
+    height: 400px;
+    text-align: center;
+    padding: 100px 0;
+    align-items: center;
+}
+footer h5 {
+    font-size: 30px;
+}
+footer img {
+    height: 30px;
+    border-radius: 10px;
+}
+footer p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+footer a {
+    text-decoration: none;
+    background-color: #f9004d;
+    padding: 17px 10px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+   
+}
+footer a:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+footer .icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+@media screen and (max-width: 1030px) {
+    nav li {
+        display: none;
+    }
+    section {
+        flex-wrap: wrap;
+    }
+    section img {
+        margin-bottom: 30px;
+    }
+    .primeira-secao {
+        background-image: none;
+       
+    }
+    .secao-projetos .card {
+        padding: 30px 22px
+
+}
+    
