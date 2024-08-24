@@ -201,6 +201,9 @@ footer .icons {
     nav li {
         display: none;
     }
+    nav {
+        padding-left: 20px;
+    }
     section {
         flex-wrap: wrap;
     }
