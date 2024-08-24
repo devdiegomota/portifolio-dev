@@ -102,7 +102,7 @@ section div button:hover {
     transition: 0.5s;
 }
 .secao-projetos {
-    padding: 100px;
+    padding: 100px 12%;
     background-color:#191919;
     color: white;
 }
@@ -147,6 +147,6 @@ section div button:hover {
     border-radius: 20px;
     text-align: center;
     background-color: black;
-    height: 365px;
-    width: 365px;
+    height: 385px;
+    width: 355px;
 }
