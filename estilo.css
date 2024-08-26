@@ -7,6 +7,14 @@
 body {
     background-color: #191919;
 }
+/*ESTILO DO MENU MOBILE*/
+.menu-mobile {
+    color: white;
+    background-color: black;
+    height: 140px;
+    display: none;
+    
+}
 .primeira-secao {
     margin: 0 auto;
     height: 100vh;
@@ -30,7 +38,7 @@ nav {
 }
 .portifolio {
     color: #ffffff;
-    font-size: 40px;
+    font-size: 30px;
 }
 .portifolio span {
     color: #f9004d;
@@ -50,7 +58,7 @@ nav li:hover {
 .p-meunome {
     position: absolute;
     top: 45%;
-    margin-left: 13%;
+    margin-left: 15%;
    
 }
 .p-meunome h3 {
@@ -89,7 +97,8 @@ section div h2 {
 section div p {
     color: white;
     font-size: 25px;
-    margin: 15px 0;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 section div button {
     color: white;
@@ -129,6 +138,7 @@ section div button:hover {
 .secao-projetos p {
     margin: 10px 0;
     line-height: 30px;
+    text-align: justify;
 }
 .secao-projetos button {
    
@@ -206,6 +216,7 @@ footer .icons {
     .secao-projetos .card {
         padding: 13px 35px;
         align-content: space-around;
+        box-sizing: content-box;
 }
     section {
         justify-content: center;
@@ -214,6 +225,13 @@ footer .icons {
     section img {
         margin: 0px;
         padding: 0px;
+    }
+    section p {
+        text-align: justify;
+       
+    }
+    section div h2 {
+        font-size: 41px;
     }
 }
 @media screen and (max-width: 958px) {
