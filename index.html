@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
     <script src="menu.js" defer></script>
+   
 </head>
 
 <body>
@@ -48,62 +49,62 @@
         <!--FIM MENU MOBILE-->
 
         <!--TITULO DEV-->
-        <div class="p-meunome">
+        <div class="p-meunome hidden">
             <h1>Diego <span>Mota</span></h1>
             <h3>Desenvolvedor Web</h3>
         </div>
         <!--FIM TITULO-->
     </div><!--FIM PRIMEIRA SEÇÃO-->
     <section id="sobre"><!--SEÇÃO SOBRE MIN-->
-        <img src="img/diego.png">
+        <img src="img/diego.png" class="hidden">
         <div>
-            <h2>Sobre min</h2>
-            <p>Eu sou um Desenvolvedor Web, tenho experiência e conhecimento em criação de sites seja eles landin pages
+            <h2 class="hidden">Sobre min</h2>
+            <p class="hidden">Eu sou um Desenvolvedor Web, tenho experiência e conhecimento em criação de sites seja eles landin pages
                 ou sites institucionais.</p>
-            <a href="https://wa.me/+5548991227555">
-                <button>Entre em Contato</button>
+            <a href="https://wa.me/+5548991227555" class="hidden">
+                <button class="hidden">Entre em Contato</button>
             </a>
         </div>
     </section><!--FIM SEÇÃO SOBRE MIN-->
-    <div class="secao-projetos" id="projetos"><!--SEÇÃO PROJETOS-->
+    <div class="secao-projetos"  id="projetos"><!--SEÇÃO PROJETOS-->
         <h2>Principais Projetos</h2>
-        <div class="card-principal">
-            <div class="card">
+        <div class="card-principal hidden">
+            <div class="card hidden">
                 <img src="img/projeto.jpg">
                 <h5>Projeto 1</h5>
                 <p>Aqui vai a descrição desse projeto, terá alguns detalhes importantes para lhe mostrar um pouco de
                     minha experiência.</p>
                 <a><button>Ver Projeto</button></a>
             </div>
-            <div class="card">
+            <div class="card hidden">
                 <img src="img/projeto.jpg">
                 <h5>Projeto 2</h5>
                 <p>Aqui vai a descrição desse projeto, terá alguns detalhes importantes para lhe mostrar um pouco de
                     minha experiência.</p>
                 <button>Ver Projeto</button>
             </div>
-            <div class="card">
+            <div class="card hidden">
                 <img src="img/projeto.jpg">
                 <h5>Projeto 3</h5>
                 <p>Aqui vai a descrição desse projeto, terá alguns detalhes importantes para lhe mostrar um pouco de
                     minha experiência.</p>
                 <button>Ver Projeto</button>
             </div>
-            <div class="card">
+            <div class="card hidden">
                 <img src="img/projeto.jpg">
                 <h5>Projeto 1</h5>
                 <p>Aqui vai a descrição desse projeto, terá alguns detalhes importantes para lhe mostrar um pouco de
                     minha experiência.</p>
                 <a><button>Ver Projeto</button></a>
             </div>
-            <div class="card">
+            <div class="card hidden">
                 <img src="img/projeto.jpg">
                 <h5>Projeto 2</h5>
                 <p>Aqui vai a descrição desse projeto, terá alguns detalhes importantes para lhe mostrar um pouco de
                     minha experiência.</p>
                 <button>Ver Projeto</button>
             </div>
-            <div class="card">
+            <div class="card hidden">
                 <img src="img/projeto.jpg">
                 <h5>Projeto 3</h5>
                 <p>Aqui vai a descrição desse projeto, terá alguns detalhes importantes para lhe mostrar um pouco de
@@ -111,15 +112,13 @@
                 <button>Ver Projeto</button>
             </div>
         </div>
-        
-        
-    </div>
-    <footer id="contato">
+    </div><!--FIM SEÇÃO PPROJETOS-->
+    <footer id="contato"><!--RODAPÉ-->
         <div>
-            <h5>Diego Mota</h5>
-            <p>Para mais informações</p>
+            <h5 class="hidden">Diego Mota</h5>
+            <p class="hidden">Para mais informações</p>
         </div>
-        <div class="icons">
+        <div class="icons hidden">
             <a href="https://wa.me/+5548991227555" target="_blank">
                 <img src="img/zap.png">
             </a>
@@ -132,5 +131,7 @@
         </div>
     </footer>
 </body>
+
+<script src="efeitos.js" defer></script>
 
 </html>

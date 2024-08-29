@@ -272,6 +272,34 @@ footer .icons {
     justify-content: center;
     gap: 20px;
 }
+.hidden {
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 2s;
+    transform: translateX(-100%);
+}
+.show {
+    opacity: 1;
+    transition: all 2s;
+    filter: blur(0px);
+    transform: translateX(0);
+}
+.card-principal :nth-child(2) {
+    transition-delay: 400ms;
+}
+.card-principal :nth-child(3) {
+    transition-delay: 700ms;
+}
+.card-principal :nth-child(4) {
+    transition-delay: 1000ms;
+}
+.card-principal :nth-child(5) {
+    transition-delay: 1300ms;
+}
+.card-principal :nth-child(6) {
+    transition-delay: 1600ms;
+}
+
 @media screen and (max-width: 630px) {
 
     .primeira-secao {
