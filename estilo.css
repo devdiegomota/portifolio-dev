@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: "Nunito", sans-serif;
 }
+html {
+    scroll-behavior: smooth ;
+}
 body {
     background-color: #191919;
 }
@@ -141,7 +144,7 @@ section {
     background-color: black;
     align-items: center;
     display: flex;
-    padding: 100px 13%;
+    padding: 10% 12%;
 
 }
 section img {
@@ -175,7 +178,7 @@ section div button:hover {
     transition: 0.5s;
 }
 .secao-projetos {
-    padding: 100px 12%;
+    padding: 8% 12%;
     background-color:#191919;
     color: white;
 }
@@ -191,7 +194,7 @@ section div button:hover {
     border-radius: 20px;
 }
 .secao-projetos h2 {
-    margin-bottom: 100px;
+    margin-bottom: 10%;
     font-size: 50px;
     text-align: center;
 }
