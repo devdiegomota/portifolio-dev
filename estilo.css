@@ -155,7 +155,7 @@ section img {
 }
 section div h2 {
     color: white;
-    font-size: 50px;
+    font-size: 40px;
 }
 section div p {
     color: white;
@@ -195,7 +195,7 @@ section div button:hover {
 }
 .secao-projetos h2 {
     margin-bottom: 10%;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
 }
 .secao-projetos p {
@@ -295,7 +295,7 @@ footer .icons {
        
     }
     section div h2 {
-        font-size: 41px;
+        font-size: 40px;
     }
 }
 @media screen and (max-width: 958px) {
