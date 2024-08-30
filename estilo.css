@@ -200,6 +200,7 @@ section div button:hover {
     width: 100%;
     height: 145px;
     border-radius: 10px;
+    border: 1px solid #f9004d;
 }
 .secao-projetos h2 {
     margin-bottom: 10%;
