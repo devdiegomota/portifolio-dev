@@ -216,9 +216,10 @@ section div button:hover {
     color: white;
     background-color: #f9004d;
     height: 40px;
-    width: 150px;
+    width: 130px;
     border: none;
     border-radius: 20px;
+    margin-top: 10px;
 }
 .secao-projetos button:hover {
     background-color: black;
