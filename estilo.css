@@ -83,10 +83,18 @@ body {
 .primeira-secao {
     margin: 0 auto;
     height: 100vh;
-    background-image: url(img/banner2.png);
     background-position: 80% 62%;
     background-repeat: no-repeat;
     
+}   
+
+.img-banner img {
+
+    position: absolute;
+    top: 23%;
+    right: 15%;
+
+    width: 500px;
 }   
 .primeira-secao a {
     text-decoration: none;
@@ -128,19 +136,19 @@ nav li a:hover {
 .p-meunome {
     position: absolute;
     top: 45%;
-    margin-left: 15%;
+    margin-left: 20%;
    
 }
 .p-meunome h3 {
-    padding-left: 4px;
+    padding-left: 2px;
 }
 h1 {
     color: white;
-    font-size: 75px;
+    font-size: 36px;
 }
 h1 span {
     color: #f9004d;
-    font-size: 75px;
+    font-size: 36px;
 }
 .p-meunome h3 {
     color: white;
@@ -315,9 +323,7 @@ footer .icons {
 
 @media screen and (max-width: 630px) {
 
-    .primeira-secao {
-        background-image: none;    
-    }
+    
     .secao-projetos .card {
         padding: 24px 35px;
         align-content: space-around;
@@ -340,13 +346,29 @@ footer .icons {
     }
 }
 @media screen and (max-width: 958px) {
+
+    .img-banner img {
+    
+        display: none;
+    }   
     
     section {
         display: flex;
         flex-wrap: wrap;
     }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1100px) {
+    .img-banner img {
+        width: 400px;
+    }
+     
+
+@media screen and (max-width: 1025px) {
+
+    .img-banner img {
+        display: none;
+     
+    }
     .btn-abrir-menu img {
         display: block;
     
@@ -387,3 +409,4 @@ footer .icons {
         font-size: 36px;
     }
     
+}
