@@ -49,7 +49,7 @@ body {
     transition: 0.2s;
 }
 .menu-mobile.abrir-menu {
-    width: 60%; 
+    width: 50%; 
     
 }
 .menu-mobile.abrir-menu ~ .overlay-menu {
@@ -60,7 +60,7 @@ body {
     padding: 40px 4%;
 }
 .menu-mobile ul li a {
-    font-size: 30px;
+    font-size: 20px;
     display: block;
     
 }
@@ -164,7 +164,7 @@ h1 span {
 }
 .p-meunome h3 {
     color: white;
-    font-size: 25px;
+    font-size: 18px;
 }
 section {
    
@@ -410,11 +410,11 @@ footer .icons {
 
     h1 {
         color: white;
-        font-size: 36px;
+        font-size: 25px;
     }
     h1 span {
         color: #f9004d;
-        font-size: 36px;
+        font-size: 25px;
     }
     
 }
