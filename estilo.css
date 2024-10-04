@@ -340,6 +340,9 @@ footer .icons {
 .card-principal :nth-child(9) {
     transition-delay: 3200ms;
 }
+.card-principal :nth-child(10) {
+    transition-delay: 3400ms;
+}
 
 @media screen and (max-width: 630px) {
 
